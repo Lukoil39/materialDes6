@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 //        GridLayoutManager layoutManager = new GridLayoutManager(this, 2);
         recyclerView.setLayoutManager(layoutManager);
         Data data = new Data();
-        MyAdapter myAdapter = new MyAdapter(this, data.getList());
+        MyAdapter myAdapter = new MyAdapter(data.getList());
         recyclerView.setAdapter(myAdapter);
         recyclerView.addItemDecoration(new ItemDivider(this));
     }
