@@ -19,7 +19,6 @@ class ItemDivider extends RecyclerView.ItemDecoration {
                            RecyclerView.State state) {
         super.onDrawOver(c, parent, state);
 
-//        int left = parent.getPaddingLeft();
         int left = parent.getPaddingLeft();
         int right = parent.getWidth() - parent.getPaddingRight();
 
